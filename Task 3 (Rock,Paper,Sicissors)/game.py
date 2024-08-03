@@ -35,7 +35,6 @@ while(True):
 
     print("The User's choice is:",user_choice)
 
-    print("Computer's Turn")
 
     com = random.randint(1,3)
 
@@ -76,7 +75,7 @@ while(True):
     print("Ties are",ties)
 
     again = input("Play Again ?")
-    if (again=="No" or again =="No"):
+    if (again=="No" or again =="no"):
         break
 
 print("Game Over, Tata")
